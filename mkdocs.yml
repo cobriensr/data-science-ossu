@@ -18,3 +18,6 @@ nav:
 markdown_extensions:
 - toc:
     permalink: true
+
+extra_javascript:
+- js/extra.js
