@@ -1,0 +1,20 @@
+site_name: Data Science OSSU
+site_description: Open Source Society University - Data Science Curriculum
+
+theme:
+  name: material # or use 'mkdocs', 'readthedocs'
+
+nav:
+- Home: index.md
+- Course Pages:
+  - Intro to CS: coursepages/intro-cs/README.md
+  - Intro to Programming: coursepages/intro-programming/README.md
+- Resources:
+  - Books: extras/books.md
+  - Courses: extras/courses.md
+  - Specializations: extras/specializations.md
+- License: LICENSE.md
+
+markdown_extensions:
+- toc:
+    permalink: true
